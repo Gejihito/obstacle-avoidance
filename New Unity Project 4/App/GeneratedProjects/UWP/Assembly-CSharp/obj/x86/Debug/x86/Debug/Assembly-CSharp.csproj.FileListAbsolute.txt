@@ -1,0 +1,1 @@
+C:\Users\kei\Desktop\New Unity Project 4\App\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

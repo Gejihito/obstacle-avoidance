@@ -1,0 +1,4 @@
+C:\Users\kei\Desktop\New Unity Project 4\App3\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\kei\Desktop\New Unity Project 4\App3\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\kei\Desktop\New Unity Project 4\App3\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\kei\Desktop\New Unity Project 4\App3\New Unity Project 4\New Unity Project 4.csproj;x86

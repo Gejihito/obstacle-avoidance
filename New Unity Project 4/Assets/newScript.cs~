@@ -1,0 +1,34 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using HoloToolkit.Unity;
+
+public class newScript : MonoBehaviour {
+	private float num;
+
+	private GameObject cursor;
+
+	private TextMesh[] txt;
+
+	// Use this for initialization
+	void Start () {
+		txt = new TextMesh[transform.childCount];
+		int i = 0;
+		foreach (Transform item in transform) {
+			txt[i] = item.gameObject.GetComponent<TextMesh> ();
+			txt[i].text = "Ready ...";
+			i++;
+		}
+		cursor = GameObject.Find("Cursor");
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		txt[0].text = "Position :" + cursor.transform.position;
+		if (GazeManager.Instance.Hit)
+			txt [1].text = "Distance :" + Vector3.Distance (cursor.transform.position, transform.position);
+		else
+			foreach (TextMesh t in txt)
+				t.text = "Not Hit ...";
+	}
+}
